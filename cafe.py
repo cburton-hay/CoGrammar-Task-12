@@ -1,21 +1,21 @@
 # Code for running a cafe.
 
-menu = ["coffee", "hot chocolate", "tea", "pastry"]
+menu = ["pizza", "beer", "cider", "burrata"]
 
 # How many portions of each item on the menu is in the cafe.
 stock = {
-    "coffee" : 200,
-    "hot chocolate" : 100,
-    "tea": 150,
-    "pastry" : 50
+    "pizza" : 100,
+    "beer" : 50,
+    "cider": 50,
+    "burrata" : 25
 }
 
 # The cost per item on the menu.
 price = {
-    "coffee" : 3,
-    "hot chocolate" : 2.5,
-    "tea": 2,
-    "pastry" : 1.25
+    "pizza" : 12.5,
+    "beer" : 6.5,
+    "cider": 6,
+    "burrata" : 7
 }
 
 # Looks for the item in both dictionaries and multiplies the stock quantity and price to calculate the total value of the stock.
